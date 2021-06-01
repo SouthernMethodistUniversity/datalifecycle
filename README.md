@@ -2,7 +2,7 @@
 
 * When we talk about data, what do we mean? What is the data life cycle? Where are you on this cycle?
  
-[![Data Life Cycle ](https://rdc.png)](https://nnlm.gov/data/data-life-cycles)
+[![Data Life Cycle ](https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/rdc.png)](https://nnlm.gov/data/data-life-cycles)
 
 
 ## Overview
