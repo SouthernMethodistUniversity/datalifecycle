@@ -8,23 +8,11 @@
 
 * [High Performance Computing @ SMU](https://www.smu.edu/OIT/Services/HPC)
 
-## Resources elsewhere
+* [LinkedIn Learning](https://www.smu.edu/OIT/Services/LinkedIn)
 
-* [Programming Historian lessons on data](https://programminghistorian.org/en/lessons/?search=data)
+* [Data Sources @ SMU Libraries](https://guides.smu.edu/data)
 
-* [DataBasic](https://databasic.io/en/)
 
-* [Data Fundamentals](https://pow123.github.io/UWI-Mona/02-starting-with-data.html) 
-
-* [Data Ethics](https://pow123.github.io/UWI-Mona/02-starting-with-data.html) 
-
-# Readings from workshop
-
-* [A Duke study recorded thousands of students’ faces. Now they’re being used all over the world](https://www.dukechronicle.com/article/2019/06/duke-university-facial-recognition-data-set-study-surveillance-video-students-china-uyghur)
-
-* [Big? Smart? Clean? Messy? Data in the Humanities](http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/) 
-
-* [Data in DHQ](http://www.digitalhumanities.org/dhq/findIt?queryString=data+AND+idno%40type%3ADHQarticle-id)
 
 # References 
 * 	Andrejevic Mark. (2014). “The Big Data divide.” *International Journal of Communication* 8: 1673–1689.
