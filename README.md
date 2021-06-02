@@ -1,9 +1,44 @@
-# Introduction to the Data Life Cycle 
+# Introduction to the stages of the Data Life Cycle 
 
 * When we talk about data, what do we mean? What is the data life cycle? Where are you on this cycle?
+
+* When we talk about data, what do we mean? What is the data life cycle? Where are you on this cycle? Which steps apply to you? 
+* We are discussing these steps as a list which may make you think of them as sequential, however: you may skip some steps, you may go back and forth between various steps- it all depends on what you are trying to do and what your role in your current research project is.
+
  
 [![Data Life Cycle ](https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/rdc.png)](https://nnlm.gov/data/data-life-cycles)
 
+
+## Research questions
+* Why are you looking for data? What kind of data do you think will have useful information for you questions?
+
+* Data Search/ Reuse 
+  - Looking for already existing data/data sets that you can reuse for your research
+  - (Search Strategies](https://guides.smu.edu/searchstrategies)
+  - [Data Sources @ SMU Libraries](https://guides.smu.edu/data)
+
+* Data Management Plan (DMP)
+ - Do you need a long term plan to manage your data? 
+ - Do you want to share it with others? 
+ - Does the grant you are working on require you have a plan for sharing and/or preserving your data? 
+ - [Research Data Management Support @ SMU](https://www.smu.edu/libraries/fondren/services/data)
+
+ * Data Storage (Collection, Description, Re-collection) 
+  - Where are you going to store the data? 
+  - Do you want to store the description/metadata?
+
+  * Pre-Analysis
+  - Is your data in the proper format for analysis? Is is clean and structured? 
+
+  * Analysis
+  - Using Tools (Excel) or Scripts (Python, R) ask some questions of your data)
+
+  * Archive
+  - You are done using the data, but you want to dave it for the long term.
+
+  * Publications
+  - Publishing you research and/or the data set.
+  - Data visualizations are a type of publication. 
 
 ## Overview
 * This is part of the [Summer Research Intensive program (2021) series.](https://www.smu.edu/Provost/Engaged-Learning/Research/URA/Summer-Research-Intensive) 
