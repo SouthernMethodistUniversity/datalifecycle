@@ -17,31 +17,31 @@
   - [Data Sources @ SMU Libraries](https://guides.smu.edu/data)
 
 * Data Management Plan (DMP)
- - Do you need a long term plan to manage your data? 
- - Do you want to share it with others? 
- - Does the grant you are working on require you have a plan for sharing and/or preserving your data? 
- - [Research Data Management Support @ SMU](https://www.smu.edu/libraries/fondren/services/data)
+  - Do you need a long term plan to manage your data? 
+  - Do you want to share it with others? 
+  - Does the grant you are working on require you have a plan for sharing and/or preserving your data? 
+  - [Research Data Management Support @ SMU](https://www.smu.edu/libraries/fondren/services/data)
 
  * Data Storage (Collection, Description, Re-collection) 
-  - Where are you going to store the data? 
-  - Do you want to store the description/metadata?
+   - Where are you going to store the data? 
+   - Do you want to store the description/metadata?
 
-  * Pre-Analysis
-  - Is your data in the proper format for analysis? Is is clean and structured? 
+  * *Pre-Analysis*
+   - Is your data in the proper format for analysis? Is is clean and structured? 
 
   * Analysis
-  - Using Tools (Excel) or Scripts (Python, R) ask some questions of your data)
+   - Using Tools (Excel) or Scripts (Python, R) ask some questions of your data)
 
   * Archive
-  - You are done using the data, but you want to dave it for the long term.
+   - You are done using the data, but you want to dave it for the long term.
 
   * Publications
-  - Publishing you research and/or the data set.
-  - Data visualizations are a type of publication. 
+   - Publishing you research and/or the data set.
+   - Data visualizations are a type of publication. 
 
 ## Overview
 * This is part of the [Summer Research Intensive program (2021) series.](https://www.smu.edu/Provost/Engaged-Learning/Research/URA/Summer-Research-Intensive) 
-* This session is 90 minutes, there will be time for questions throughout and at the end. 
+* This session is 90 minutes, there will be time for questions at the end. 
 * Discussion of: using data, forms and types of data, big data, your data project and additional resources.
 
 
