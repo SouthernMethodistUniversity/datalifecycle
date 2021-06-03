@@ -1,10 +1,15 @@
-# Introduction to the stages of the Data Life Cycle 
+# Data Life Cycle 
 
+## Overview
+* This is part of the [Summer Research Intensive program (2021) series.](https://www.smu.edu/Provost/Engaged-Learning/Research/URA/Summer-Research-Intensive) 
+* This session is 90 minutes, there will be time for questions at the end. 
+* Discussion of: using data, forms and types of data, big data, your data project and additional resources.
+
+ # Introduction to the stages of the Data Life Cycle 
 * When we talk about data, what do we mean? 
 * What is the data life cycle? Where are you on this cycle? Which steps apply to you? 
 * We are discussing these steps as a list, which may make you think of them as sequential, however: you may skip some steps, you may go back and forth between various steps - it all depends on what you are trying to do and what your role in your current research project is.
 
- 
 [![Data Life Cycle ](https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/rdc.png)](https://nnlm.gov/data/data-life-cycles)
 
 
@@ -36,11 +41,6 @@
   * Publications
     - You are now publishing your results, research and/or the data set.
     - Data visualizations are a type of publication. 
-
-## Overview
-* This is part of the [Summer Research Intensive program (2021) series.](https://www.smu.edu/Provost/Engaged-Learning/Research/URA/Summer-Research-Intensive) 
-* This session is 90 minutes, there will be time for questions at the end. 
-* Discussion of: using data, forms and types of data, big data, your data project and additional resources.
 
 
 ----
