@@ -1,16 +1,15 @@
 # Introduction to the stages of the Data Life Cycle 
 
-* When we talk about data, what do we mean? What is the data life cycle? Where are you on this cycle?
-
-* When we talk about data, what do we mean? What is the data life cycle? Where are you on this cycle? Which steps apply to you? 
-* We are discussing these steps as a list which may make you think of them as sequential, however: you may skip some steps, you may go back and forth between various steps- it all depends on what you are trying to do and what your role in your current research project is.
+* When we talk about data, what do we mean? 
+* What is the data life cycle? Where are you on this cycle? Which steps apply to you? 
+* We are discussing these steps as a list, which may make you think of them as sequential, however: you may skip some steps, you may go back and forth between various steps - it all depends on what you are trying to do and what your role in your current research project is.
 
  
 [![Data Life Cycle ](https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/rdc.png)](https://nnlm.gov/data/data-life-cycles)
 
 
 ## Research questions
-* Why are you looking for data? What kind of data do you think will have useful information for you questions?
+* Why are you looking for data? What kind of data do you think will have useful information for your questions?
 
 * Data Search/ Reuse 
   - Looking for already existing data/data sets that you can reuse for your research
