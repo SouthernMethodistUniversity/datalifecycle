@@ -8,8 +8,8 @@
 [![Data Life Cycle ](https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/rdc.png)](https://nnlm.gov/data/data-life-cycles)
 
 
-## Research questions
-* Why are you looking for data? What kind of data do you think will have useful information for your questions?
+* Research questions
+ - Why are you looking for data? What kind of data do you think will have useful information for your questions?
 
 * Data Search/ Reuse 
   - Looking for already existing data/data sets that you can reuse for your research
