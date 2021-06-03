@@ -15,6 +15,7 @@
   - YOu are looking for already existing data/data sets that you can reuse for your research.
   - (Search Strategies](https://guides.smu.edu/searchstrategies)
   - [Data Sources @ SMU Libraries](https://guides.smu.edu/data)
+  - Is the data you found in the proper format for analysis? Is is clean and structured? 
 
 * Data Management Plan (DMP)
    - Do you need a long term plan to manage your data? 
@@ -25,9 +26,6 @@
  * Data Storage (Collection, Description, Re-collection) 
     - Where are you going to store the data? 
     - Do you want to store the description/metadata?
-
-  * *Pre-Analysis*
-    - Is your data in the proper format for analysis? Is is clean and structured? 
 
   * Analysis
     - You are deciding what tools (Excel) or Scripts (Python, R) ask some questions of your data)
