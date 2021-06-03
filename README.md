@@ -12,7 +12,7 @@
   - Why are you looking for data? What kind of data do you think will have useful information for your questions?
 
 * Data Search/ Reuse 
-  - Looking for already existing data/data sets that you can reuse for your research
+  - YOu are looking for already existing data/data sets that you can reuse for your research.
   - (Search Strategies](https://guides.smu.edu/searchstrategies)
   - [Data Sources @ SMU Libraries](https://guides.smu.edu/data)
 
@@ -30,13 +30,13 @@
     - Is your data in the proper format for analysis? Is is clean and structured? 
 
   * Analysis
-    - Using Tools (Excel) or Scripts (Python, R) ask some questions of your data)
+    - You are deciding what tools (Excel) or Scripts (Python, R) ask some questions of your data)
 
   * Archive
-    - You are done using the data, but you want to dave it for the long term.
+    - You are done using the data, but you want to save it for the long term.
 
   * Publications
-    - Publishing you research and/or the data set.
+    - You are now publishing your results, research and/or the data set.
     - Data visualizations are a type of publication. 
 
 ## Overview
