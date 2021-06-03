@@ -12,8 +12,8 @@
   - Why are you looking for data? What kind of data do you think will have useful information for your questions?
 
 * Data Search/ Reuse 
-  - YOu are looking for already existing data/data sets that you can reuse for your research.
-  - (Search Strategies](https://guides.smu.edu/searchstrategies)
+  - You are looking for already existing data/data sets that you can reuse for your research.
+  - [Search Strategies](https://guides.smu.edu/searchstrategies)
   - [Data Sources @ SMU Libraries](https://guides.smu.edu/data)
   - Is the data you found in the proper format for analysis? Is is clean and structured? 
 
@@ -23,7 +23,7 @@
    - Does the grant you are working on require you have a plan for sharing and/or preserving your data? 
    - [Research Data Management Support @ SMU](https://www.smu.edu/libraries/fondren/services/data)
 
- * Data Storage (Collection, Description, Re-collection) 
+ * Data Storage (Collection, Description, Recollection) 
     - Where are you going to store the data? 
     - Do you want to store the description/metadata?
 
