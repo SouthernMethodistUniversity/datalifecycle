@@ -12,9 +12,16 @@
 
 * [Data Sources @ SMU Libraries](https://guides.smu.edu/data)
 
+## Glossaries
+
+* [Digital Curation Centre (DCC) Glossary](https://www.dcc.ac.uk/about/digital-curation/glossary)
+* [USGS Data Management Website](https://www.usgs.gov/products/data-and-tools/data-management)
+* [ICPSR's Glossary of Social Science Terms](https://www.icpsr.umich.edu/web/ICPSR/cms/2042)
+* [OAIS Reference Model](https://public.ccsds.org/pubs/650x0m2.pdf)
+* [Society of American Archivists' Glossary of Archival Terminology](https://dictionary.archivists.org/)
 
 
-# References 
+### References 
 * 	Andrejevic Mark. (2014). “The Big Data divide.” *International Journal of Communication* 8: 1673–1689.
 * 	Bauman, Z and Lyon, David. (2013). *Liquid Surveillance.* London: Polity Press.
 * 	Birchall, Clare (2015). "'Data.gov-in-a-box': Delimiting transparency." *European Journal of Social Theory* 18 (2015): 185–202.

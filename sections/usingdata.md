@@ -2,9 +2,13 @@
 
 # Using Data 
 
-# What is data? 
+## [What are the differences between data, a dataset, and a database?](https://www.usgs.gov/faqs/what-are-differences-between-data-a-dataset-and-a-database?qt-news_science_products=0#qt-news_science_products)
+  - "Data are observations or measurements (unprocessed or processed) represented as text, numbers, or multimedia.
+  - A dataset is a structured collection of data generally associated with a unique body of work.
+  - A database is an organized collection of data stored as multiple datasets. Those datasets are generally stored and accessed electronically from a computer system that allows the data to be easily accessed, manipulated, and updated." 
 
-## What kind of data are you using?
+
+## What kind of data are you using?]
 * Big (Kaplan, 2015)
 * Small (Klienmann, 2016)
 * Micro (Risam & Edwards, 2017)
@@ -28,8 +32,11 @@
     * [What does platform data tell us?](https://points.datasociety.net/how-not-to-know-ourselves-5227c185569 )
     * What research questions can you ask? 
     * Big Data, Medium Data, Small Data, Curated data, Clean data
+* What does the metadata or description tell you about the data? 
+    * [Data Dictionaries: A data dictionary is used to catalog and communicate the structure and content of data, and provides meaningful descriptions for individually named data objects.](https://www.usgs.gov/products/data-and-tools/data-management/data-dictionaries)
 
-## Collaborative Viewing
+
+## Discussion 
 * [We measured pop music’s falsetto obsession - Vox Earworm](https://youtu.be/qJT2h5uGAC0)
 
 * Additional Discussion: [A brief history of the past 100 years as told through the New York Times archives](https://pudding.cool/2018/12/brief-history/) 

@@ -17,7 +17,8 @@
   - Why are you looking for data? What kind of data do you think will have useful information for your questions?
 
 * Data Search/ Reuse 
-  - You are looking for already existing data/data sets that you can reuse for your research.
+  - You are looking for already existing data or data sets that you can reuse for your research.
+  - What is the difference between data and a data set?
   - [Search Strategies](https://guides.smu.edu/searchstrategies)
   - [Data Sources @ SMU Libraries](https://guides.smu.edu/data)
   - Is the data you found in the proper format for analysis? Is is clean and structured? 
