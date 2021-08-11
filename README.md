@@ -11,7 +11,7 @@
 * We are discussing these steps as a list, which may make you think of them as sequential, however: you may skip some steps, you may go back and forth between various steps - it all depends on what you are trying to do and what your role in your current research project is.
    * Discussion topic: In your experience, how does this relate to other research frameworks: e.g. Research Process, Research Life Cycle, Scientific Method, etc. What steps in those process are similar to what we are discussing for the Data Life Cycle.)
 
-[![Data Life Cycle ](https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/rdc.png)](https://www.eunis.org/wp-content/uploads/2020/06/80-Tenhunen_Wilson_eunis2020_full_paper_final_2020-05-15.pdf)
+[![Data Life Cycle ](https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/rdc.png)](https://guides.library.ucsc.edu/datamanagement)
 
 
 * Research questions
