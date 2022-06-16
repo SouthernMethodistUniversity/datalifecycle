@@ -9,7 +9,7 @@
 [![Research Life Cycle ](https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/researchlifecycle.png)](https://library.ucf.edu/about/departments/scholarly-communication/overview-research-lifecycle/)
 
 ----
-[Workshop comtent >>>](sections/datalifecycle.md)  
+[Workshop content >>>](sections/datalifecycle.md)  
 ----
 
 
