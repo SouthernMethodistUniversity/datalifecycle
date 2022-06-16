@@ -214,6 +214,10 @@ Look back at our example of cats to see how they may or may not follow those gui
 
  <sup>1</sup>Wickham, Hadley. "Tidy Data". Journal of Statistical Software.
 
+# Group Watch:
+* We will watch this as a group and discuss the stages of the data lifye cycle for this research question:[We measured pop music’s falsetto obsession - Vox Earworm](https://www.vox.com/2019/8/13/20801974/we-charted-pop-music-falsetto) 
+* Optional extra: "Along the way, we discovered that using [social media platform] data to concretely answer this question is quite a challenge. Our process included creating dozens of custom data sets, careful fact-checking, and conversations with hit songwriters and music industry executives to match data with real experiences."-[We tracked what happens after TikTok songs go viral](https://www.vox.com/videos/23148752/viral-tiktok-musicians-songs-data-investigation)
+
 
 # Big data
 [![Big Data 3 Vs](https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/bigdatav.png)](https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F7%2F74%2FBigDataVs.png&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ABigDataVs.png&tbnid=V-NBlLRfweJiyM&vet=12ahUKEwj0h6PO0rD4AhWYCJ0JHQFLDtMQMygIegUIARCTAg..i&docid=FC36b1S3FFavoM&w=659&h=482&q=what%20is%20big%20data&hl=en-GB&ved=2ahUKEwj0h6PO0rD4AhWYCJ0JHQFLDtMQMygIegUIARCTAg)
@@ -254,12 +258,14 @@ Zook, Matthew et al. “Ten simple rules for responsible big data research.” P
 
 ## Handout for data discussion 
 
-* [ Data discussion handout: To download this PDF, click on this link, it should automatically download.](https://github.com/SouthernMethodistUniversity/data/raw/master/sections/handoutdata.pdf)
+* [Data discussion handout: To download this PDF, click on this link, it should automatically download.](https://github.com/SouthernMethodistUniversity/data/raw/master/sections/handoutdata.pdf)
+* [Data Sources @ SMU Libraries](https://guides.smu.edu/data)
 
-
- # About your data project
+# About your data project
 * What topic(s) do you want to focus on?
 * What kind(s) of data will you need?
+* [Data lifecycle handout](https://github.com/SouthernMethodistUniversity/data/raw/master/sections/handoutdlc.pdf)
+
 
 
 [![tasks](https://github.com/DHRISMU/data/blob/master/images/datalifecycle.png)](https://github.com/DHRISMU/data/blob/master/sections/bigdatalessons.pdf)
