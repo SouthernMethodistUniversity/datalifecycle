@@ -1,4 +1,6 @@
-[<<< Previous](https://github.com/SouthernMethodistUniversity/datalifecycle)
+[Return to introduction](https://github.com/SouthernMethodistUniversity/datalifecycle)
+----
+
 
 # Introduction to the stages of the Data Life Cycle 
 * When we talk about data, what do we mean? 
