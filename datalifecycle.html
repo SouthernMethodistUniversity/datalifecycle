@@ -1,0 +1,960 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Return to introduction &#8212; Data</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'datalifecycle';</script>
+    <link rel="canonical" href="https://southernmethodistuniversity.github.io/intro-to-python/datalifecycle.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Next steps" href="nextsteps.html" />
+    <link rel="prev" title="Data Life Cycle" href="index.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+
+  <div class="bd-header-announcement container-fluid bd-header-announcement">
+    <div class="bd-header-announcement__content">SMU Libraries & OIT's Research Services team: Introduction to Python </div>
+  </div>
+
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Data - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Data - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="index.html">
+                    Data Life Cycle
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Return to introduction</a></li>
+
+
+
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="nextsteps.html">Next steps</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/SouthernMethodistUniversity/datalifecycle" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/SouthernMethodistUniversity/datalifecycle/issues/new?title=Issue%20on%20page%20%2Fdatalifecycle.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/datalifecycle.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Return to introduction</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Return to introduction</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction-to-the-stages-of-the-data-life-cycle">Introduction to the stages of the Data Life Cycle</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-data">What is Data ?</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-differences-between-data-a-dataset-and-a-database">What are the differences between data, a dataset, and a database?</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#forms-of-data">Forms of Data</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-forms-of-data">Discussion: Forms of Data</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#stages-of-data">Stages of Data</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#raw">Raw</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-raw-data">Discussion: Raw Data</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#processed-transformed">Processed/Transformed</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#xml">XML</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#json">JSON</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#csv">CSV</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-importance-of-using-open-data-formats">The importance of using open data formats</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-processed-transformed">Discussion: Processed/Transformed</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tidy-data">Tidy Data</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#group-watch">Group Watch:</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#big-data">Big data</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-potentials-of-big-data-what-are-the-big-problems">What are the potentials of big data? What are the big problems?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ten-simple-rules-for-responsible-big-data-research">Ten simple rules for responsible big data research</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#checklists-principles-examples">Checklists, principles, examples</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#handout-for-data-discussion">Handout for data discussion</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#about-your-data-project">About your data project</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lessons-for-big-data">Lessons for big data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#resources-at-smu">Resources at SMU</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#glossaries">Glossaries</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="return-to-introduction">
+<h1><a class="reference external" href="https://github.com/SouthernMethodistUniversity/datalifecycle">Return to introduction</a><a class="headerlink" href="#return-to-introduction" title="Permalink to this heading">#</a></h1>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="introduction-to-the-stages-of-the-data-life-cycle">
+<h1>Introduction to the stages of the Data Life Cycle<a class="headerlink" href="#introduction-to-the-stages-of-the-data-life-cycle" title="Permalink to this heading">#</a></h1>
+<ul class="simple">
+<li><p>When we talk about data, what do we mean?</p></li>
+<li><p>What is the <a class="reference external" href="https://online.hbs.edu/blog/post/data-life-cycle">data life cycle</a>? Where are you on this cycle? Which steps apply to you?</p></li>
+<li><p>We are discussing these steps as a list, which may make you think of them as sequential, however: you may skip some steps, you may go back and forth between various steps - it all depends on what you are trying to do and what your role in your current research project is.</p>
+<ul>
+<li><p>Discussion topic: In your experience, how does this relate to other research frameworks: e.g. Research Process, Research Life Cycle, Scientific Method, etc. What steps in those process are similar to what we are discussing for the Data Life Cycle.</p></li>
+</ul>
+</li>
+</ul>
+<p><a class="reference external" href="https://guides.library.ucsc.edu/datamanagement"><img alt="Data Life Cycle " src="https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/rdc.png" /></a></p>
+<ul class="simple">
+<li><p>Research questions</p>
+<ul>
+<li><p>Why are you looking for data? What kind of data do you think will have useful information for your questions?</p></li>
+</ul>
+</li>
+<li><p>Data Search/ Reuse</p>
+<ul>
+<li><p>You are looking for already existing data or data sets that you can reuse for your research.</p></li>
+<li><p>What is the difference between data and a data set?</p></li>
+<li><p><a class="reference external" href="https://guides.smu.edu/searchstrategies">Search Strategies</a></p></li>
+<li><p><a class="reference external" href="https://guides.smu.edu/data">Data Sources &#64; SMU Libraries</a></p></li>
+<li><p>Is the data you found in the proper format for analysis?</p></li>
+<li><p>Is is clean and structured?</p></li>
+</ul>
+</li>
+<li><p>Data Management Plan (DMP)</p>
+<ul>
+<li><p>Do you need a long term plan to manage your data?</p></li>
+<li><p>Do you want to share it with others?</p></li>
+<li><p>Does the grant you are working on require you have a plan for sharing and/or preserving your data?</p></li>
+<li><p><a class="reference external" href="https://www.smu.edu/libraries/fondren/services/data">Research Data Management Support &#64; SMU</a></p></li>
+</ul>
+</li>
+<li><p>Data Storage (Collection, Description, Recollection)</p>
+<ul>
+<li><p>Where are you going to store the data?</p></li>
+<li><p>Do you want to store the description/metadata?</p></li>
+</ul>
+</li>
+<li><p>Analysis</p>
+<ul>
+<li><p>You are deciding what tools (Excel) or Scripts (Python, R) ask some questions of your data)</p></li>
+</ul>
+</li>
+<li><p>Archive</p>
+<ul>
+<li><p>You are done using the data, but you want to save it for the long term.</p></li>
+</ul>
+</li>
+<li><p>Publications</p>
+<ul>
+<li><p>You are now publishing your results, research and/or the data set.</p></li>
+<li><p>Data visualizations are a type of publication.</p></li>
+</ul>
+</li>
+</ul>
+<p>Additional Resources:</p>
+<ul class="simple">
+<li><p>Read <a class="reference external" href="https://online.hbs.edu/blog/post/data-life-cycle">8 STEPS IN THE DATA LIFE CYCLE</a></p></li>
+<li><p>What do you think about this framework? Do you find it helpful?</p></li>
+<li><p>Does this framework change how you think about your data?</p></li>
+<li><p>Take notes on your responses to this and we will discuss this in the session.</p></li>
+<li><p>We will be discussing how to think like a data professional (scientist, journalist, etc.)? We will be applying this framework to a project.</p></li>
+</ul>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="what-is-data">
+<h1>What is Data ?<a class="headerlink" href="#what-is-data" title="Permalink to this heading">#</a></h1>
+<section id="what-are-the-differences-between-data-a-dataset-and-a-database">
+<h2><a class="reference external" href="https://www.usgs.gov/faqs/what-are-differences-between-data-a-dataset-and-a-database?qt-news_science_products=0#qt-news_science_products">What are the differences between data, a dataset, and a database?</a><a class="headerlink" href="#what-are-the-differences-between-data-a-dataset-and-a-database" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>“Data are observations or measurements (unprocessed or processed) represented as text, numbers, or multimedia.</p></li>
+<li><p>A dataset is a structured collection of data generally associated with a unique body of work.</p></li>
+<li><p>A database is an organized collection of data stored as multiple datasets. Those datasets are generally stored and accessed electronically from a computer system that allows the data to be easily accessed, manipulated, and updated.”</p></li>
+</ul>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="forms-of-data">
+<h1>Forms of Data<a class="headerlink" href="#forms-of-data" title="Permalink to this heading">#</a></h1>
+<p>There are many ways to represent data, just as there are many sources of data. After processing our data, we turn it into a number of products. For example:</p>
+<ul class="simple">
+<li><p>Non-digital text (lab books, field notebooks)</p></li>
+<li><p>Digital texts or digital copies of text</p></li>
+<li><p>Spreadsheets</p></li>
+<li><p>Audio</p></li>
+<li><p>Video</p></li>
+<li><p>Computer Aided Design/CAD</p></li>
+<li><p>Statistical analysis (SPSS, SAS)</p></li>
+<li><p>Databases</p></li>
+<li><p>Geographic Information Systems (GIS) and spatial data</p></li>
+<li><p>Digital copies of images</p></li>
+<li><p>Web files</p></li>
+<li><p>Scientific sample collections</p></li>
+<li><p>Matlab files &amp; 3D Models</p></li>
+<li><p>Metadata &amp; Paradata</p></li>
+<li><p>Data visualizations</p></li>
+<li><p>Computer code</p></li>
+<li><p>Standard operating procedures and protocols</p></li>
+<li><p>Protein or genetic sequences</p></li>
+<li><p>Artistic products</p></li>
+<li><p>Curriculum materials</p></li>
+<li><p>Collection of digital objects acquired and generated during research</p></li>
+</ul>
+<p>Adapted from: Georgia Tech Library Guide <!--(http://libguides.gatech.edu/content.php?pid=123776&sid=3067221)--></p>
+<section id="discussion-forms-of-data">
+<h2>Discussion: Forms of Data<a class="headerlink" href="#discussion-forms-of-data" title="Permalink to this heading">#</a></h2>
+<p>These are some (most!) of the shapes your research data might transform into. What are some forms of data you use in your work? What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field? Where do you usually get your data from?</p>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="stages-of-data">
+<h1>Stages of Data<a class="headerlink" href="#stages-of-data" title="Permalink to this heading">#</a></h1>
+<p>We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations:</p>
+<section id="raw">
+<h2>Raw<a class="headerlink" href="#raw" title="Permalink to this heading">#</a></h2>
+<p>Raw data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc.. It could be in any of the forms listed above.</p>
+<p>But “raw data” is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is “raw data”.</p>
+<section id="discussion-raw-data">
+<h3>Discussion: Raw Data<a class="headerlink" href="#discussion-raw-data" title="Permalink to this heading">#</a></h3>
+<p>For example, is “big data” “raw data”? How do we understand data that we have “scraped”?</p>
+</section>
+</section>
+<section id="processed-transformed">
+<h2>Processed/Transformed<a class="headerlink" href="#processed-transformed" title="Permalink to this heading">#</a></h2>
+<p>Processing data puts it into a state more readily available for analysis, and makes the data legible. For instance it could be rendered as <strong>structured data</strong>. This can also take many forms, e.g., a table.</p>
+<p>Here are a few you’re likely to come across, all representing the same data:</p>
+<section id="xml">
+<h3>XML<a class="headerlink" href="#xml" title="Permalink to this heading">#</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">Cats</span><span class="o">&gt;</span> 
+    <span class="o">&lt;</span><span class="n">Cat</span><span class="o">&gt;</span> 
+        <span class="o">&lt;</span><span class="n">firstName</span><span class="o">&gt;</span><span class="n">Smally</span><span class="o">&lt;/</span><span class="n">firstName</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">lastName</span><span class="o">&gt;</span><span class="n">McTiny</span><span class="o">&lt;/</span><span class="n">lastName</span><span class="o">&gt;</span> 
+    <span class="o">&lt;/</span><span class="n">Cat</span><span class="o">&gt;</span> 
+    <span class="o">&lt;</span><span class="n">Cat</span><span class="o">&gt;</span> 
+        <span class="o">&lt;</span><span class="n">firstName</span><span class="o">&gt;</span><span class="n">Kitty</span><span class="o">&lt;/</span><span class="n">firstName</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">lastName</span><span class="o">&gt;</span><span class="n">Kitty</span><span class="o">&lt;/</span><span class="n">lastName</span><span class="o">&gt;</span> 
+    <span class="o">&lt;/</span><span class="n">Cat</span><span class="o">&gt;</span> 
+    <span class="o">&lt;</span><span class="n">Cat</span><span class="o">&gt;</span> 
+        <span class="o">&lt;</span><span class="n">firstName</span><span class="o">&gt;</span><span class="n">Foots</span><span class="o">&lt;/</span><span class="n">firstName</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">lastName</span><span class="o">&gt;</span><span class="n">Smith</span><span class="o">&lt;/</span><span class="n">lastName</span><span class="o">&gt;</span> 
+    <span class="o">&lt;/</span><span class="n">Cat</span><span class="o">&gt;</span> 
+    <span class="o">&lt;</span><span class="n">Cat</span><span class="o">&gt;</span> 
+        <span class="o">&lt;</span><span class="n">firstName</span><span class="o">&gt;</span><span class="n">Tiger</span><span class="o">&lt;/</span><span class="n">firstName</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">lastName</span><span class="o">&gt;</span><span class="n">Jaws</span><span class="o">&lt;/</span><span class="n">lastName</span><span class="o">&gt;</span> 
+    <span class="o">&lt;/</span><span class="n">Cat</span><span class="o">&gt;</span> 
+<span class="o">&lt;/</span><span class="n">Cats</span><span class="o">&gt;</span> 
+</pre></div>
+</div>
+</section>
+<section id="json">
+<h3>JSON<a class="headerlink" href="#json" title="Permalink to this heading">#</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="s2">&quot;Cats&quot;</span><span class="p">:[</span> 
+    <span class="p">{</span> <span class="s2">&quot;firstName&quot;</span><span class="p">:</span><span class="s2">&quot;Smally&quot;</span><span class="p">,</span> <span class="s2">&quot;lastName&quot;</span><span class="p">:</span><span class="s2">&quot;McTiny&quot;</span> <span class="p">},</span> 
+    <span class="p">{</span> <span class="s2">&quot;firstName&quot;</span><span class="p">:</span><span class="s2">&quot;Kitty&quot;</span><span class="p">,</span> <span class="s2">&quot;lastName&quot;</span><span class="p">:</span><span class="s2">&quot;Kitty&quot;</span> <span class="p">},</span> 
+    <span class="p">{</span> <span class="s2">&quot;firstName&quot;</span><span class="p">:</span><span class="s2">&quot;Foots&quot;</span><span class="p">,</span> <span class="s2">&quot;lastName&quot;</span><span class="p">:</span><span class="s2">&quot;Smith&quot;</span> <span class="p">},</span> 
+    <span class="p">{</span> <span class="s2">&quot;firstName&quot;</span><span class="p">:</span><span class="s2">&quot;Tiger&quot;</span><span class="p">,</span> <span class="s2">&quot;lastName&quot;</span><span class="p">:</span><span class="s2">&quot;Jaws&quot;</span> <span class="p">}</span> 
+<span class="p">]}</span> 
+</pre></div>
+</div>
+</section>
+<section id="csv">
+<h3>CSV<a class="headerlink" href="#csv" title="Permalink to this heading">#</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">First</span> <span class="n">Name</span><span class="p">,</span><span class="n">Last</span> <span class="n">Name</span><span class="o">/</span><span class="n">n</span>
+<span class="n">Smally</span><span class="p">,</span><span class="n">McTiny</span><span class="o">/</span><span class="n">n</span>
+<span class="n">Kitty</span><span class="p">,</span><span class="n">Kitty</span><span class="o">/</span><span class="n">n</span>
+<span class="n">Foots</span><span class="p">,</span><span class="n">Smith</span><span class="o">/</span><span class="n">n</span>
+<span class="n">Tiger</span><span class="p">,</span><span class="n">Jaws</span><span class="o">/</span><span class="n">n</span>
+</pre></div>
+</div>
+<section id="the-importance-of-using-open-data-formats">
+<h4>The importance of using open data formats<a class="headerlink" href="#the-importance-of-using-open-data-formats" title="Permalink to this heading">#</a></h4>
+<p>A small detour to discuss (the ethics of?) data formats. For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:</p>
+<ol class="arabic simple">
+<li><p>Open <span class="xref myst">this file</span> in a text editor, and then in an app like Excel. This is a CSV, an open, text-only, file format.</p></li>
+<li><p>Now try to do the same with <span class="xref myst">this one</span>. This is a proprietary format!</p></li>
+</ol>
+<p>Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. A small list:</p>
+<ul class="simple">
+<li><p>ASCII</p></li>
+<li><p>PDF</p></li>
+<li><p>.csv</p></li>
+<li><p>FLAC</p></li>
+<li><p>TIFF</p></li>
+<li><p>JPEG2000</p></li>
+<li><p>MPEG-4</p></li>
+<li><p>XML</p></li>
+<li><p>RDF</p></li>
+<li><p>.txt</p></li>
+<li><p>.r</p></li>
+</ul>
+</section>
+</section>
+<section id="discussion-processed-transformed">
+<h3>Discussion: Processed/Transformed<a class="headerlink" href="#discussion-processed-transformed" title="Permalink to this heading">#</a></h3>
+<p>How do you decide the formats to store your data when you transition from ‘raw’ to ‘processed/transformed’ data? What are some of your considerations?</p>
+</section>
+</section>
+<section id="tidy-data">
+<h2>Tidy Data<a class="headerlink" href="#tidy-data" title="Permalink to this heading">#</a></h2>
+<p>There are guidelines to the processing of data, sometimes referred to as <strong>Tidy Data</strong>.<sup>1</sup> One manifestation of these rules:</p>
+<ol class="arabic simple">
+<li><p>Each variable is in a column.</p></li>
+<li><p>Each observation is a row.</p></li>
+<li><p>Each value is a cell.</p></li>
+</ol>
+<p>Look back at our example of cats to see how they may or may not follow those guidelines. <strong>Important note</strong>: some data formats allow for more than one dimension of data! How might that complicate the concept of <strong>Tidy Data</strong>?</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="s2">&quot;Cats&quot;</span><span class="p">:[</span>
+    <span class="p">{</span><span class="s2">&quot;Calico&quot;</span><span class="p">:[</span>
+    <span class="p">{</span> <span class="s2">&quot;firstName&quot;</span><span class="p">:</span><span class="s2">&quot;Smally&quot;</span><span class="p">,</span> <span class="s2">&quot;lastName&quot;</span><span class="p">:</span><span class="s2">&quot;McTiny&quot;</span> <span class="p">},</span>
+    <span class="p">{</span> <span class="s2">&quot;firstName&quot;</span><span class="p">:</span><span class="s2">&quot;Kitty&quot;</span><span class="p">,</span> <span class="s2">&quot;lastName&quot;</span><span class="p">:</span><span class="s2">&quot;Kitty&quot;</span> <span class="p">}],</span>
+    <span class="s2">&quot;Tortoiseshell&quot;</span><span class="p">:[</span>
+    <span class="p">{</span> <span class="s2">&quot;firstName&quot;</span><span class="p">:</span><span class="s2">&quot;Foots&quot;</span><span class="p">,</span> <span class="s2">&quot;lastName&quot;</span><span class="p">:</span><span class="s2">&quot;Smith&quot;</span> <span class="p">},</span> 
+    <span class="p">{</span> <span class="s2">&quot;firstName&quot;</span><span class="p">:</span><span class="s2">&quot;Tiger&quot;</span><span class="p">,</span> <span class="s2">&quot;lastName&quot;</span><span class="p">:</span><span class="s2">&quot;Jaws&quot;</span> <span class="p">}]}]}</span>
+</pre></div>
+</div>
+<p><sup>1</sup>Wickham, Hadley. “Tidy Data”. Journal of Statistical Software.</p>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="group-watch">
+<h1>Group Watch:<a class="headerlink" href="#group-watch" title="Permalink to this heading">#</a></h1>
+<ul class="simple">
+<li><p>We will watch this as a group and discuss the stages of the data lifye cycle for this research question:<a class="reference external" href="https://www.vox.com/2019/8/13/20801974/we-charted-pop-music-falsetto">We measured pop music’s falsetto obsession - Vox Earworm</a></p></li>
+<li><p>Optional extra: “Along the way, we discovered that using [social media platform] data to concretely answer this question is quite a challenge. Our process included creating dozens of custom data sets, careful fact-checking, and conversations with hit songwriters and music industry executives to match data with real experiences.”-<a class="reference external" href="https://www.vox.com/videos/23148752/viral-tiktok-musicians-songs-data-investigation">We tracked what happens after TikTok songs go viral</a></p></li>
+</ul>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="big-data">
+<h1>Big data<a class="headerlink" href="#big-data" title="Permalink to this heading">#</a></h1>
+<p><a class="reference external" href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F7%2F74%2FBigDataVs.png&amp;imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ABigDataVs.png&amp;tbnid=V-NBlLRfweJiyM&amp;vet=12ahUKEwj0h6PO0rD4AhWYCJ0JHQFLDtMQMygIegUIARCTAg..i&amp;docid=FC36b1S3FFavoM&amp;w=659&amp;h=482&amp;q=what%20is%20big%20data&amp;hl=en-GB&amp;ved=2ahUKEwj0h6PO0rD4AhWYCJ0JHQFLDtMQMygIegUIARCTAg"><img alt="Big Data 3 Vs" src="https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/bigdatav.png" /></a></p>
+<p><a class="reference external" href="https://www.researchgate.net/figure/Six-Vs-of-big-data-value-volume-velocity-variety-veracity-and-variability-which_fig15_280124446"><img alt="Big Data More Vs" src="https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/6vbigdata.png" /></a></p>
+<section id="what-are-the-potentials-of-big-data-what-are-the-big-problems">
+<h2>What are the potentials of big data? What are the big problems?<a class="headerlink" href="#what-are-the-potentials-of-big-data-what-are-the-big-problems" title="Permalink to this heading">#</a></h2>
+<p>“We deﬁne Big Data as a	cultural, technological, and scholarly phenomenon that rests on the interplay of:</p>
+<ol class="arabic simple">
+<li><p>Technology: maximizing computation power and algorithmic accuracy to gather, analyze, link, and compare large data sets.</p></li>
+<li><p>Analysis: drawing on large data sets to identify patterns in order to make economic, social, technical, and legal claims.</p></li>
+<li><p>Mythology: the widespread belief that large data sets offer a higher form of intelligence and knowledge that can generate insights that were previously impossible, with the aura of truth, objectivity, and accuracy.” (boyd &amp; Crawford, 2012)</p></li>
+</ol>
+<p>“The next time you hear someone talking about algorithms, replace the term with ‘God’ and ask yourself if the meaning changes. Our supposedly algorithmic culture is not a material phenomenon so much as a devotional one….It gives us an excuse not to intervene in the social shifts wrought by big corporations like Google or Facebook or their kindred, to see their outcomes as beyond our inﬂuence [and] it makes us forget that particular computational systems are abstractions, caricatures of the world, one perspective among many. The ﬁrst error turns computers into gods, the second treats their outputs as scripture.” (Bogost, 2015)</p>
+<p>“We believe ‘big data’ research can be similarly improved by working with, rather than denying the importance of, ‘small data’ (Kitchin  and Lauriault, 2014; Thatcher and Burns, 2013) and other existing approaches to research….Furthermore, doing critical work with ‘big data’ involves understanding not only data’s formal characteristics, but also the social context of the research amidst  shifting  technologies and broad social processes. Done right, ‘big’ and small data utilized in concert opens new possibilities: topics, methods, concepts, and meanings for what can be understood and done through research.” (Dalton &amp; Thatcher, 2014)</p>
+</section>
+<section id="ten-simple-rules-for-responsible-big-data-research">
+<h2>Ten simple rules for responsible big data research<a class="headerlink" href="#ten-simple-rules-for-responsible-big-data-research" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Acknowledge that data are people and can do harm</p></li>
+<li><p>Recognize that privacy is more than a binary value</p></li>
+<li><p>Guard against the reidentification of your data</p></li>
+<li><p>Practice ethical data sharing</p></li>
+<li><p>Consider the strengths and limitations of your data; big does not automatically mean better</p></li>
+<li><p>Debate the tough, ethical choices</p></li>
+<li><p>Develop a code of conduct for your organization, research community, or industry</p></li>
+<li><p>Design your data and systems for auditability</p></li>
+<li><p>Engage with the broader consequences of data and analysis practices</p></li>
+<li><p>Know when to break these rules</p></li>
+</ol>
+<p>Zook, Matthew et al. “Ten simple rules for responsible big data research.” PLoS computational biology vol. 13,3 e1005399. 30 Mar, 2017. <a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5373508/">doi:10.1371/journal.pcbi.1005399</a></p>
+</section>
+<section id="checklists-principles-examples">
+<h2>Checklists, principles, examples<a class="headerlink" href="#checklists-principles-examples" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Data Ethics Decision Aid: <a class="reference external" href="https://dataschool.nl/deda/deda-for-research/?lang=en">DEDA</a></p></li>
+<li><p>Data Harm Record: <a class="reference external" href="https://datajusticelab.org/data-harm-record/">DHR</a></p></li>
+<li><p>Data Science Ethics Checklist &amp; Examples of Data Harms :<a class="reference external" href="https://deon.drivendata.org/">Deon</a></p></li>
+<li><p>“Feminist Data Visualization” (D’Ignazio &amp; Klein, 2018): <a class="reference external" href="https://visionscarto.net/feminist-data-visualization">FDV</a></p></li>
+</ul>
+</section>
+<section id="handout-for-data-discussion">
+<h2>Handout for data discussion<a class="headerlink" href="#handout-for-data-discussion" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/SouthernMethodistUniversity/data/raw/master/sections/handoutdata.pdf">Data discussion handout: To download this PDF, click on this link, it should automatically download.</a></p></li>
+<li><p><a class="reference external" href="https://guides.smu.edu/data">Data Sources &#64; SMU Libraries</a></p></li>
+</ul>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="about-your-data-project">
+<h1>About your data project<a class="headerlink" href="#about-your-data-project" title="Permalink to this heading">#</a></h1>
+<ul class="simple">
+<li><p>What topic(s) do you want to focus on?</p></li>
+<li><p>What kind(s) of data will you need?</p></li>
+<li><p><a class="reference external" href="https://github.com/SouthernMethodistUniversity/data/raw/master/sections/handoutdlc.pdf">Data lifecycle handout</a></p></li>
+</ul>
+<p><a class="reference external" href="https://github.com/DHRISMU/data/blob/master/sections/bigdatalessons.pdf"><img alt="tasks" src="https://github.com/DHRISMU/data/blob/master/images/datalifecycle.png" /></a></p>
+<p><a class="reference external" href="https://github.com/DHRISMU/data/blob/master/sections/bigdatalessons.pdf"><img alt="tasks" src="https://github.com/DHRISMU/data/blob/master/images/3challenges.png" /></a></p>
+<section id="lessons-for-big-data">
+<h2>Lessons for big data<a class="headerlink" href="#lessons-for-big-data" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/DHRISMU/data/blob/master/sections/bigdatalessons.pdf">To download the Lessons for Big Data handout with additional links as a PDF: click on this link, then click on Download button on top right of page.</a></p>
+<ul>
+<li><p>Download PDF for links to be active; they are not active when you view the file online.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="resources-at-smu">
+<h2>Resources at SMU<a class="headerlink" href="#resources-at-smu" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.smu.edu/libraries/fondren/services/data">Research Data Management Support &#64; SMU</a></p></li>
+<li><p><a class="reference external" href="https://www.smu.edu/OIT/Services/HPC">High Performance Computing &#64; SMU</a></p></li>
+<li><p><a class="reference external" href="https://www.smu.edu/OIT/Services/LinkedIn">LinkedIn Learning</a></p></li>
+<li><p><a class="reference external" href="https://guides.smu.edu/data">Data Sources &#64; SMU Libraries</a></p></li>
+</ul>
+</section>
+<section id="glossaries">
+<h2>Glossaries<a class="headerlink" href="#glossaries" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.dcc.ac.uk/about/digital-curation/glossary">Digital Curation Centre (DCC) Glossary</a></p></li>
+<li><p><a class="reference external" href="https://www.usgs.gov/products/data-and-tools/data-management">USGS Data Management Website</a></p></li>
+<li><p><a class="reference external" href="https://www.icpsr.umich.edu/web/ICPSR/cms/2042">ICPSR’s Glossary of Social Science Terms</a></p></li>
+<li><p><a class="reference external" href="https://public.ccsds.org/pubs/650x0m2.pdf">OAIS Reference Model</a></p></li>
+<li><p><a class="reference external" href="https://dictionary.archivists.org/">Society of American Archivists’ Glossary of Archival Terminology</a></p></li>
+</ul>
+<hr class="docutils" />
+<p><a class="reference external" href="https://github.com/SouthernMethodistUniversity/datalifecycle">Return to introduction</a></p>
+<section id="references">
+<h3>References<a class="headerlink" href="#references" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Andrejevic Mark. (2014). “The Big Data divide.” <em>International Journal of Communication</em> 8: 1673–1689.</p></li>
+<li><p>Bauman, Z and Lyon, David. (2013). <em>Liquid Surveillance.</em> London: Polity Press.</p></li>
+<li><p>Birchall, Clare (2015). “‘Data.gov-in-a-box’: Delimiting transparency.” <em>European Journal of Social Theory</em> 18 (2015): 185–202.</p></li>
+<li><p>Bogost, Ian. 2015. “The cathedral of computation.” <em>The Atlantic</em>, January 15. <a class="reference external" href="https://www.theatlantic.com/technology/archive/2015/01/the-cathedral-of-computation/384300/">https://www.theatlantic.com/technology/archive/2015/01/the-cathedral-of-computation/384300/</a></p></li>
+<li><p>boyd, d. &amp; Crawford, K. (2012). “Critical questions for big data: Provocations for a cultural, technological, and scholarly phenomenon.” <em>Information, Communication &amp; Society 15</em>(5): 662–679. <a class="reference external" href="http://www.tandfonline.com/doi/pdf/10.1080/1369118X.2012.678878">http://www.tandfonline.com/doi/pdf/10.1080/1369118X.2012.678878</a></p></li>
+<li><p>Crawford, Kate, Miltner K, and Gray M. (2014). “Critiquing Big Data: Politics, ethics, epistemology.” <em>International Journal of Communication</em> 8: 1663–1672.</p></li>
+<li><p>D’Ignazio, Catherine &amp; Klein, Lauren F. (2018). <em>Workshop on Visualization for the Digital Humanities.</em> IEEE VIS 2016. Baltimore, MD.</p></li>
+<li><p>Dalton, Craig and Thatcher, Jim. (2014). “What does a critical data studies look like, and why do we care? Seven points for a critical approach to ‘big data.’” <em>Society &amp; Space.</em> <a class="reference external" href="https://www.societyandspace.org/articles/what-does-a-critical-data-studies-look-like-and-why-do-we-care">https://www.societyandspace.org/articles/what-does-a-critical-data-studies-look-like-and-why-do-we-care</a></p></li>
+<li><p>Data Ethics Decision Aid (DEDA). Utrecht Data School <a class="reference external" href="https://dataschool.nl/deda/?lang=en">https://dataschool.nl/deda/?lang=en</a></p></li>
+<li><p>Diamond, Larry. (2010). “Liberation technology,” <em>Journal of Democracy 21</em>(3): 69–83.</p></li>
+<li><p>Drucker, Johanna. 2011. “Humanities approaches to graphical display”, <em>Digital Humanities Quarterly</em> 5.1. <a class="reference external" href="http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html">http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html</a></p></li>
+<li><p>Fuchs, Christian. (2010). “Labor in informational capitalism and on the internet.” <em>The Information Society 26</em>(3): 179–196.</p></li>
+<li><p>Guldi, Jo. (2019). “What can the humanities teach us about Big Data?” <em>History News Network</em> <a class="reference external" href="https://historynewsnetwork.org/article/171186">https://historynewsnetwork.org/article/171186</a></p></li>
+<li><p>Hoffmann, Leah. (2012). “Data mining meets city hall.” <em>Communications of the ACM 55</em>(6), 19–21.
+<a class="reference external" href="http://cacm.acm.org/magazines/2012/6/149784-data-mining-meets-city-hall/fulltext">http://cacm.acm.org/magazines/2012/6/149784-data-mining-meets-city-hall/fulltext</a></p></li>
+<li><p>Hooker, Sara (2018). “Why “sata for good” lacks precision,” <em>Towards Data Science.</em> <a class="reference external" href="https://towardsdatascience.com/why-data-for-good-lacks-precision-87fb48e341f1">https://towardsdatascience.com/why-data-for-good-lacks-precision-87fb48e341f1</a></p></li>
+<li><p>Jackson, Suzanne F. (2008). “A participatory group process to analyze qualitative data,” <em>Progress in Community Health Partnerships: Research, Education, and Action 2</em>(2): 161–170.</p></li>
+<li><p>Kaplan, Frédéric. (2015). “A map for big data research in digital humanities.” <em>Frontiers in Digital Humanities</em> <a class="reference external" href="https://doi.org/10.3389/fdigh.2015.00001">https://doi.org/10.3389/fdigh.2015.00001</a></p></li>
+<li><p>Kleinmann, Scott (2015). “Digital humanities projects with small and unusual data: Some experiences	from the trenches,”	<em>Digital Humanities Now.</em> <a class="reference external" href="https://digitalhumanitiesnow.org/2016/03/digital-humanities-projects-with-small-and-unusual-data-some-experiences-from-the-trenches/">https://digitalhumanitiesnow.org/2016/03/digital-humanities-projects-with-small-and-unusual-data-some-experiences-from-the-trenches/</a></p></li>
+<li><p>Kitchin, Rob and Lauriault, Tracey. (2014). “Small data, data infrastructure and big data.” <em>The Programmable City Working Paper</em> 1. <a class="reference external" href="http://dx.doi.org/10.2139/ssrn.2376148">http://dx.doi.org/10.2139/ssrn.2376148</a></p></li>
+<li><p>Liu, Alan. (2012). “Where Is cultural criticism in the digital humanities?” In: <em>Debates in the Digital Humanities</em>, edited by Matthew K. Gold, 490–509. Minneapolis, Minn.: University Of Minnesota Press. <a class="reference external" href="http://dhdebates.gc.cuny.edu/debates/text/20">http://dhdebates.gc.cuny.edu/debates/text/20</a>.</p></li>
+<li><p>McPherson, Tara. (2012). “Why are the digital humanities so white? or Thinking the histories of race and computation.” In: <em>Debates in the Digital Humanities</em>, edited by Matthew K. Gold, Minneapolis, Minn.: University Of Minnesota Press. <a class="reference external" href="https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/20df8acd-9ab9-4f35-8a5d-e91aa5f4a0ea">https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/20df8acd-9ab9-4f35-8a5d-e91aa5f4a0ea</a>.</p></li>
+<li><p>Milan, Stefania, and Lonneke Van Der Velden. (2016). “The alternative epistemologies of data activism.” <em>Digital Culture &amp; Society 2</em>(2): 57–74.</p></li>
+<li><p>Plewe, Brandon. (2002). “The nature of uncertainty in historical geographic information.”
+<em>Transactions in GIS 6</em>(4): 431–456.</p></li>
+<li><p>Posner,	Miriam.	(2016).	“What’s	next:	The	radical, unrealized potential of digital humanities.”	Keystone DH Conference, University of Pennsylvania, July 22, 2015. <a class="reference external" href="http://miriamposner.com/blog/whats-next-the-radical-unrealized-potential-of-digital-humanities">http://miriamposner.com/blog/whats-next-the-radical-unrealized-potential-of-digital-humanities</a>.</p></li>
+<li><p>Redden,	Joanna &amp; Brand, Jessica. “Data harm record.” <em>Data Justice Lab.</em> <a class="reference external" href="https://datajusticelab.org/data-harm-record">https://datajusticelab.org/data-harm-record</a></p></li>
+<li><p>Risam, Roopika &amp; Edwards, Susan. (2017). “Micro DH: Digital humanities at the small scale”
+Digital Humanities 2017. <a class="reference external" href="https://dh2017.adho.org/abstracts/196/196.pdf">https://dh2017.adho.org/abstracts/196/196.pdf</a></p></li>
+<li><p>Schöch, Christof. (2013). “Big? Smart? Clean? Messy? Data in the humanities,” <em>Journal of Digital	Humanities 2</em>(3). <a class="reference external" href="http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/">http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/</a></p></li>
+<li><p>Sharon, Tamar, and Zandbergen, Dorien. (2017). “From data fetishism to quantifying selves: Self-tracking practices and the other values of data.” <em>New Media &amp; Society 19</em>(11): 1695–1709.</p></li>
+<li><p>Tactical Tech Collective. (2013).	<em>Visualising	Information	for	Advocacy.</em>
+<a class="reference external" href="https://visualisingadvocacy.org">https://visualisingadvocacy.org</a></p></li>
+<li><p>Burns, R., Thatcher, J. (2015) “Guest editorial: What’s so big about Big Data? Finding the spaces and perils of Big Data.” <em>GeoJournal</em> 80, 445–448. <a class="reference external" href="https://doi.org/10.1007/s10708-014-9600-8">https://doi.org/10.1007/s10708-014-9600-8</a></p></li>
+<li><p>Van Dijk, J. (2014). “Dataﬁcation, dataism, and dataveillance: Big Data between scientiﬁc paradigm and ideology.” <em>Surveillance &amp; Society 12</em>(2): 197–208.</p></li>
+<li><p>“Where things have gone wrong,” DEON. <a class="reference external" href="http://deon.drivendata.org/examples">http://deon.drivendata.org/examples</a></p></li>
+<li><p>Wing, Jeanette M. (2019). “The data life cycle.” <em>Harvard Data Science Review</em> 1. <a class="reference external" href="https://hdsr.mitpress.mit.edu/pub/577rq08d">https://hdsr.mitpress.mit.edu/pub/577rq08d</a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="index.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Data Life Cycle</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="nextsteps.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Next steps</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Return to introduction</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction-to-the-stages-of-the-data-life-cycle">Introduction to the stages of the Data Life Cycle</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-data">What is Data ?</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-differences-between-data-a-dataset-and-a-database">What are the differences between data, a dataset, and a database?</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#forms-of-data">Forms of Data</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-forms-of-data">Discussion: Forms of Data</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#stages-of-data">Stages of Data</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#raw">Raw</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-raw-data">Discussion: Raw Data</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#processed-transformed">Processed/Transformed</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#xml">XML</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#json">JSON</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#csv">CSV</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-importance-of-using-open-data-formats">The importance of using open data formats</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-processed-transformed">Discussion: Processed/Transformed</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tidy-data">Tidy Data</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#group-watch">Group Watch:</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#big-data">Big data</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-potentials-of-big-data-what-are-the-big-problems">What are the potentials of big data? What are the big problems?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ten-simple-rules-for-responsible-big-data-research">Ten simple rules for responsible big data research</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#checklists-principles-examples">Checklists, principles, examples</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#handout-for-data-discussion">Handout for data discussion</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#about-your-data-project">About your data project</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lessons-for-big-data">Lessons for big data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#resources-at-smu">Resources at SMU</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#glossaries">Glossaries</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Rafia Mirza, & <a href="https://www.smu.edu/libraries/scholarship/srstudio.">Scholarship & Research Studio </a> staff.
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright Creative Commons Attribution-ShareAlike 4.0 International License..
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
