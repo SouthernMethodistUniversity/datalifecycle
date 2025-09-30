@@ -3,11 +3,10 @@
 ## Overview
 * Discussion of: using data, forms and types of data, big data, your data project and additional resources.
 
-[![Research Life Cycle](https://raw.github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/researchlifecycle.png)]
+
+[![Research Life Cycle](https://raw.githubusercontent.com/SouthernMethodistUniversity/datalifecycle/main/images/researchlifecycle.png)](https://library.ucf.edu/about/departments/scholarly-communication/overview-research-lifecycle/)
 
 *[via](https://library.ucf.edu/about/departments/scholarly-communication/overview-research-lifecycle/)
-
-
 
 Session Leaders:  [Rafia Mirza](http://guides.smu.edu/prf.php?account_id=142826/) 
 * Written by Rafia Mirza.
