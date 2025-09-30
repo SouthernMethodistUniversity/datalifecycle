@@ -6,7 +6,7 @@
 * When we talk about data, what do we mean? 
 * What is the [data life cycle](https://online.hbs.edu/blog/post/data-life-cycle)? Where are you on this cycle? Which steps apply to you? 
 * We are discussing these steps as a list, which may make you think of them as sequential, however: you may skip some steps, you may go back and forth between various steps - it all depends on what you are trying to do and what your role in your current research project is.
-   * Discussion topic: In your experience, how does this relate to other research frameworks: e.g. Research Process, Research Life Cycle, Scientific Method, etc. What steps in those process are similar to what we are discussing for the Data Life Cycle.)
+   * Discussion topic: In your experience, how does this relate to other research frameworks: e.g. Research Process, Research Life Cycle, Scientific Method, etc. What steps in those process are similar to what we are discussing for the Data Life Cycle.
 
 [![Data Life Cycle ](https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/rdc.png)](https://guides.library.ucsc.edu/datamanagement)
 
@@ -41,6 +41,13 @@
   * Publications
     - You are now publishing your results, research and/or the data set.
     - Data visualizations are a type of publication. 
+
+Additional Resources: 
+* Read [8 STEPS IN THE DATA LIFE CYCLE](https://online.hbs.edu/blog/post/data-life-cycle)
+* What do you think about this framework? Do you find it helpful? 
+ * Does this framework change how you think about your data? 
+ * Take notes on your responses to this and we will discuss this in the session.
+ * We will be discussing how to think like a data professional (scientist, journalist, etc.)? We will be applying this framework to a project.
 
 
 # What is Data ?
@@ -96,7 +103,7 @@ There are many ways to represent data, just as there are many sources of data. A
 
 * Collection of digital objects acquired and generated during research
 
-Adapted from:[Georgia Tech](http://libguides.gatech.edu/content.php?pid=123776&sid=3067221)
+Adapted from: Georgia Tech Library Guide <!--(http://libguides.gatech.edu/content.php?pid=123776&sid=3067221)-->
 
 ## Discussion: Forms of Data
 These are some (most!) of the shapes your research data might transform into. What are some forms of data you use in your work? What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field? Where do you usually get your data from?
@@ -163,8 +170,8 @@ Tiger,Jaws/n
 #### The importance of using open data formats
 A small detour to discuss (the ethics of?) data formats. For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
 
-1. Open [this file](cats.csv) in a text editor, and then in an app like Excel. This is a CSV, an open, text-only, file format.
-2. Now do the same with [this one](cats.xlsx). This is a proprietary format! 
+1. Open [this file](files/cats.csv) in a text editor, and then in an app like Excel. This is a CSV, an open, text-only, file format.
+2. Now try to do the same with [this one](files/cats.xlsx). This is a proprietary format! 
 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. A small list:
 

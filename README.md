@@ -1,10 +1,7 @@
 # Data Life Cycle 
 
 ## Overview
-* This is part of the [Summer Research Intensive library sessions (2022).](https://guides.smu.edu/sri) 
 * Discussion of: using data, forms and types of data, big data, your data project and additional resources.
-
-
 
 [![Research Life Cycle ](https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/researchlifecycle.png)](https://library.ucf.edu/about/departments/scholarly-communication/overview-research-lifecycle/)
 
