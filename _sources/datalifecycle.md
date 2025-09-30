@@ -1,8 +1,6 @@
-[Return to introduction](https://github.com/SouthernMethodistUniversity/datalifecycle)
-----
+# Data Life Cycle 
 
-
-# Introduction to the stages of the Data Life Cycle 
+## Introduction to the stages of the Data Life Cycle 
 * When we talk about data, what do we mean? 
 * What is the [data life cycle](https://online.hbs.edu/blog/post/data-life-cycle)? Where are you on this cycle? Which steps apply to you? 
 * We are discussing these steps as a list, which may make you think of them as sequential, however: you may skip some steps, you may go back and forth between various steps - it all depends on what you are trying to do and what your role in your current research project is.
