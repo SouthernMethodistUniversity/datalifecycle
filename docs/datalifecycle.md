@@ -6,11 +6,10 @@
 * We are discussing these steps as a list, which may make you think of them as sequential, however: you may skip some steps, you may go back and forth between various steps - it all depends on what you are trying to do and what your role in your current research project is.
    * Discussion topic: In your experience, how does this relate to other research frameworks: e.g. Research Process, Research Life Cycle, Scientific Method, etc. What steps in those process are similar to what we are discussing for the Data Life Cycle.
 
-[![Data Life Cycle ](https://raw.github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/rdc.png)]
+![Data Life Cycle](https://raw.githubusercontent.com/SouthernMethodistUniversity/datalifecycle/main/images/rdc.png)
 
 [via](https://guides.library.ucsc.edu/datamanagement)
 
-[![Research Data Cycle](https://raw.githubusercontent.com/SouthernMethodistUniversity/datalifecycle/main/images/rdc.png)](https://library.ucf.edu/about/departments/scholarly-communication/overview-research-lifecycle/){:target="_blank"}
 
 
 * Research questions
@@ -35,7 +34,7 @@
     - Do you want to store the description/metadata?
 
   * Analysis
-    - You are deciding what tools (Excel) or Scripts (Python, R) ask some questions of your data)
+    - You are deciding what tools (Excel) or Scripts (Python, R) to use to on your data to ask questions.
 
   * Archive
     - You are done using the data, but you want to save it for the long term.
@@ -172,8 +171,9 @@ Tiger,Jaws/n
 #### The importance of using open data formats
 A small detour to discuss (the ethics of?) data formats. For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
 
-1. Open [this file](files/cats.csv) in a text editor, and then in an app like Excel. This is a CSV, an open, text-only, file format.
-2. Now try to do the same with [this one](files/cats.xlsx). This is a proprietary format! 
+1. Open [this file]([Download cats.csv](https://raw.githubusercontent.com/SouthernMethodistUniversity/datalifecycle/main/files/cats.csv)
+) in a text editor, and then in an app like Excel. This is a CSV, an open, text-only, file format.
+2. Now try to do the same with [this one]([Download cats.csv](https://raw.githubusercontent.com/SouthernMethodistUniversity/datalifecycle/main/files/cats.xlsx). This is a proprietary format! 
 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. A small list:
 
@@ -229,9 +229,9 @@ Look back at our example of cats to see how they may or may not follow those gui
 
 
 # Big data
-[![Big Data 3 Vs](https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/bigdatav.png)](https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F7%2F74%2FBigDataVs.png&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ABigDataVs.png&tbnid=V-NBlLRfweJiyM&vet=12ahUKEwj0h6PO0rD4AhWYCJ0JHQFLDtMQMygIegUIARCTAg..i&docid=FC36b1S3FFavoM&w=659&h=482&q=what%20is%20big%20data&hl=en-GB&ved=2ahUKEwj0h6PO0rD4AhWYCJ0JHQFLDtMQMygIegUIARCTAg)
+[![Big Data 3 Vs](https://raw.githubusercontent.com/SouthernMethodistUniversity/datalifecycle/main/images/bigdatav.png)](https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F7%2F74%2FBigDataVs.png&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ABigDataVs.png&tbnid=V-NBlLRfweJiyM&vet=12ahUKEwj0h6PO0rD4AhWYCJ0JHQFLDtMQMygIegUIARCTAg..i&docid=FC36b1S3FFavoM&w=659&h=482&q=what%20is%20big%20data&hl=en-GB&ved=2ahUKEwj0h6PO0rD4AhWYCJ0JHQFLDtMQMygIegUIARCTAg)
 
-[![Big Data *More* Vs](https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/6vbigdata.png)](https://www.researchgate.net/figure/Six-Vs-of-big-data-value-volume-velocity-variety-veracity-and-variability-which_fig15_280124446)
+[![Big Data *More* Vs](https://raw.githubusercontent.com/SouthernMethodistUniversity/datalifecycle/main/images/6vbigdata.png)](https://www.researchgate.net/figure/Six-Vs-of-big-data-value-volume-velocity-variety-veracity-and-variability-which_fig15_280124446)
 
 
 ## What are the potentials of big data? What are the big problems?
@@ -241,7 +241,7 @@ Look back at our example of cats to see how they may or may not follow those gui
 1. Analysis: drawing on large data sets to identify patterns in order to make economic, social, technical, and legal claims.
 1. Mythology: the widespread belief that large data sets offer a higher form of intelligence and knowledge that can generate insights that were previously impossible, with the aura of truth, objectivity, and accuracy.” (boyd & Crawford, 2012)
 
-“The next time you hear someone talking about algorithms, replace the term with ‘God’ and ask yourself if the meaning changes. Our supposedly algorithmic culture is not a material phenomenon so much as a devotional one….It gives us an excuse not to intervene in the social shifts wrought by big corporations like Google or Facebook or their kindred, to see their outcomes as beyond our inﬂuence [and] it makes us forget that particular computational systems are abstractions, caricatures of the world, one perspective among many. The ﬁrst error turns computers into gods, the second treats their outputs as scripture.” (Bogost, 2015)
+“The next time you hear someone talking about algorithms, replace the term with ‘God’ and ask yourself if the meaning changes. Our supposedly algorithmic culture is not a material phenomenon so much as a devotional one….It gives us an excuse not to intervene in the social shifts wrought by big corporations like Google or Facebook or their kindred, to see their outcomes as beyond our influence [and] it makes us forget that particular computational systems are abstractions, caricatures of the world, one perspective among many. The ﬁrst error turns computers into gods, the second treats their outputs as scripture.” (Bogost, 2015)
 
 “We believe ‘big data’ research can be similarly improved by working with, rather than denying the importance of, ‘small data’ (Kitchin  and Lauriault, 2014; Thatcher and Burns, 2013) and other existing approaches to research….Furthermore, doing critical work with ‘big data’ involves understanding not only data’s formal characteristics, but also the social context of the research amidst  shifting  technologies and broad social processes. Done right, ‘big’ and small data utilized in concert opens new possibilities: topics, methods, concepts, and meanings for what can be understood and done through research.” (Dalton & Thatcher, 2014)
 
@@ -267,23 +267,25 @@ Zook, Matthew et al. “Ten simple rules for responsible big data research.” P
 
 ## Handout for data discussion 
 
-* [Data discussion handout: To download this PDF, click on this link, it should automatically download.](https://github.com/SouthernMethodistUniversity/data/raw/master/sections/handoutdata.pdf)
+* [Data discussion handout: To download this PDF, click on this link, it should automatically download.](https://raw.githubusercontent.com/SouthernMethodistUniversity/datalifecycle/main/files/handoutdata.pdf)
+
 * [Data Sources @ SMU Libraries](https://guides.smu.edu/data)
 
 # About your data project
 * What topic(s) do you want to focus on?
 * What kind(s) of data will you need?
-* [Data lifecycle handout](https://github.com/SouthernMethodistUniversity/data/raw/master/sections/handoutdlc.pdf)
+* [Data lifecycle handout]((https://raw.githubusercontent.com/SouthernMethodistUniversity/datalifecycle/main/files/handoutdlc.pdf)
 
 
 
-[![tasks](https://github.com/DHRISMU/data/blob/master/images/datalifecycle.png)](https://github.com/DHRISMU/data/blob/master/sections/bigdatalessons.pdf)
+![Data Lifecycle](https://raw.githubusercontent.com/SouthernMethodistUniversity/datalifecycle/main/images/datalifecycle.png)
+(https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/files/bigdatalessons.pdf)
 
-[![tasks](https://github.com/DHRISMU/data/blob/master/images/3challenges.png)](https://github.com/DHRISMU/data/blob/master/sections/bigdatalessons.pdf)
+![Data Lifecycle](https://raw.githubusercontent.com/SouthernMethodistUniversity/datalifecycle/main/images/3challenges.png)(https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/files/handoutdata.pdf)
 
 
 ## Lessons for big data 
-* [To download the Lessons for Big Data handout with additional links as a PDF: click on this link, then click on Download button on top right of page.](https://github.com/DHRISMU/data/blob/master/sections/bigdatalessons.pdf)
+* [To download the Lessons for Big Data handout with additional links as a PDF: click on this link, then click on Download button on top right of page.](https://github.com/SouthernMethodistUniversity/datalifecycle/blob/main/files/bigdatalessons.pdf)
     * Download PDF for links to be active; they are not active when you view the file online. 
 
 
@@ -305,8 +307,7 @@ Zook, Matthew et al. “Ten simple rules for responsible big data research.” P
 * [OAIS Reference Model](https://public.ccsds.org/pubs/650x0m2.pdf)
 * [Society of American Archivists' Glossary of Archival Terminology](https://dictionary.archivists.org/)
 
------
-[Return to introduction](https://github.com/SouthernMethodistUniversity/datalifecycle)
+
 
 
 
