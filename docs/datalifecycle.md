@@ -6,7 +6,11 @@
 * We are discussing these steps as a list, which may make you think of them as sequential, however: you may skip some steps, you may go back and forth between various steps - it all depends on what you are trying to do and what your role in your current research project is.
    * Discussion topic: In your experience, how does this relate to other research frameworks: e.g. Research Process, Research Life Cycle, Scientific Method, etc. What steps in those process are similar to what we are discussing for the Data Life Cycle.
 
-[![Data Life Cycle ](https://raw.github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/rdc.png)](https://guides.library.ucsc.edu/datamanagement)
+[![Data Life Cycle ](https://raw.github.com/SouthernMethodistUniversity/datalifecycle/blob/main/images/rdc.png)]
+
+[via](https://guides.library.ucsc.edu/datamanagement)
+
+[![Research Data Cycle](https://raw.githubusercontent.com/SouthernMethodistUniversity/datalifecycle/main/images/rdc.png)](https://library.ucf.edu/about/departments/scholarly-communication/overview-research-lifecycle/){:target="_blank"}
 
 
 * Research questions
